@@ -8,13 +8,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: emissive
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _EMISSION _NORMALMAP_TANGENT_SPACE _NORMALMAP_TANGENT_SPACE0
-    _NORMALMAP_TANGENT_SPACE1 _NORMALMAP_TANGENT_SPACE2 _NORMALMAP_TANGENT_SPACE3
+  m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
+  m_ShaderKeywords: _NORMALMAP_TANGENT_SPACE
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap: {}
   disabledShaderPasses:
   - DistortionVectors
@@ -541,7 +540,7 @@ Material:
     - _IridescenceMask: 1
     - _IridescenceThickness: 1
     - _LayerCount: 2
-    - _LinkDetailsWithBase: 1
+    - _LinkDetailsWithBase: 0
     - _LinkDetailsWithBase0: 1
     - _LinkDetailsWithBase1: 1
     - _LinkDetailsWithBase2: 1
@@ -596,7 +595,7 @@ Material:
     - _Smoothness1: 0.5
     - _Smoothness2: 0.5
     - _Smoothness3: 0.5
-    - _SmoothnessRemapMax: 1
+    - _SmoothnessRemapMax: 0.5
     - _SmoothnessRemapMax0: 1
     - _SmoothnessRemapMax1: 1
     - _SmoothnessRemapMax2: 1
@@ -692,7 +691,7 @@ Material:
     - _DiffusionProfileAsset3: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColorHDR: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
@@ -717,3 +716,16 @@ Material:
     - _UVMappingMaskBlendMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
     - _UnlitColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &5303348173971700234
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
